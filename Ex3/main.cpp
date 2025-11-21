@@ -22,6 +22,7 @@ void courseMenu(){
     cout << "12. Sort student by first name (to text file)\n";
     cout << "13. Sort student by gpa (to text file)\n";
     cout << "14. Sort student by date of birth (to text file)\n";  
+    cout << "\n============= Course Menu ============= \n";
 }
 int main(){
     Course c;
