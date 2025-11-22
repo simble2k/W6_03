@@ -18,7 +18,7 @@ void studentLegalToDrive(const Course &c, const Student list[]);
 void studentInK19Class(const Course &c, const Student list[], char filename[]);
 void findStudentByid(const Course &c, const Student list[],char id[], char filename[]);
 void findStudentByName(const Course &c, const Student list[],char name[], char filename[]);
-void sortStudentById(const Course &c, const Student list[],char filename[]);
+void sortStudentById(const Course &c, Student list[],char filename[]);
 void sortStudentByFirstName(const Course &c, Student list[], char filename[]);
 void sortStudentByGpa(const Course &c, Student list[],char filename[]);
 void sortStudentByDob(const Course &c, Student list[],char filename[]);

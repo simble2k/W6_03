@@ -184,7 +184,7 @@ void findStudentByName(const Course &c, const Student list[], char name[], char 
     if(n == 0) fout << "Student not found!";
     fout.close();
 }
-void sortStudentById(const Course &c, Student list[],char filename[]){
+void sortStudentById(const Course &c,Student list[],char filename[]){
     ofstream fout(filename);
     for(int i = 0; i < c.currentStudent - 1; i++){
         for(int j = i + 1; j < c.currentStudent; j++){
